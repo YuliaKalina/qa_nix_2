@@ -1,2 +1,2 @@
 call mvn clean install
-call java -jar .\target\test.jar
+call java -jar .\target\unit3.jar
