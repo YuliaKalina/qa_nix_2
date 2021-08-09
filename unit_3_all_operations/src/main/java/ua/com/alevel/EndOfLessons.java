@@ -2,6 +2,7 @@ package ua.com.alevel;
 import java.util.Scanner;
 
 public class EndOfLessons {
+
     public void run() {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter lesson: ");

@@ -1,12 +1,12 @@
 package ua.com.alevel;
 
 public class Reverse {
+
     public static String reverse(String str) {
         StringBuilder reverse = new StringBuilder();
         for (int i = str.length() - 1; i >= 0; i--)
             reverse.append(str.charAt(i));
         return reverse.toString();
-
     }
 
     public static String reverse(String str, boolean reverseAll) {
@@ -14,11 +14,9 @@ public class Reverse {
         if (reverseAll) {
             return reverse(str);
         }
-
         for (String word : str.split(" ")) {
             result.append(reverse(word)).append(" ");
         }
-
         return result.toString();
     }
 
@@ -32,7 +30,6 @@ public class Reverse {
         String firstPart = str.substring(0, firstIndex);
         String secondPart = str.substring(firstIndex, lastIndex);
         String thirdPart = str.substring(lastIndex);
-
         return firstPart + Reverse.reverse(secondPart) + thirdPart;
     }
 }

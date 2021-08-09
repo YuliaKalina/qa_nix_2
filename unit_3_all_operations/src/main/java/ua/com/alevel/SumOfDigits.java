@@ -3,6 +3,7 @@ package ua.com.alevel;
 import java.util.Scanner;
 
 public class SumOfDigits {
+
     public void run() {
         Scanner sc = new Scanner(System.in);
 

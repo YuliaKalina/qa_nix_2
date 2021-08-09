@@ -2,10 +2,9 @@ package ua.com.alevel;
 
 import java.util.Scanner;
 
-
 public class Main {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         while (true) {
             System.out.print("\nMake a choice:" +
                     "\n 1. reverse all" +
@@ -45,9 +44,7 @@ public class Main {
             } else {
                 break;
             }
-
         }
-
     }
 }
 

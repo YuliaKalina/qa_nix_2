@@ -5,6 +5,7 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class Symbols {
+
     public void run() {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the string to count the characters: ");
