@@ -57,7 +57,6 @@ public class CarsDB {
     }
 
     private String generateId() {
-        // uniq - https://towardsdatascience.com/are-uuids-really-unique-57eb80fc2a87
         return UUID.randomUUID().toString();
     }
 }
