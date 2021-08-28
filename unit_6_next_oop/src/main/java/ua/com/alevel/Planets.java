@@ -10,7 +10,7 @@ import java.math.RoundingMode;
 
 @Data
 @AllArgsConstructor
-public class Planets implements Planet {
+public abstract class Planets implements Planet {
     private String name;
     private BigDecimal mass;
     private BigDecimal diameter;

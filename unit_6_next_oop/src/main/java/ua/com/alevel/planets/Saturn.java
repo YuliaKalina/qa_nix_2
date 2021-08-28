@@ -1,7 +1,7 @@
 package ua.com.alevel.planets;
 
-import ua.com.alevel.Planets;
 
+import ua.com.alevel.Planets;
 
 public class Saturn extends Planets {
     public Saturn() {

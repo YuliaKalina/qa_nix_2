@@ -1,7 +1,7 @@
 package ua.com.alevel.planets;
 
-import ua.com.alevel.Planets;
 
+import ua.com.alevel.Planets;
 
 public class Venus extends Planets {
     public Venus() {
