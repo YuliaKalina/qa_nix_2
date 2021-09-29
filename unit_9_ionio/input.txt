@@ -1,0 +1,3 @@
+Note: There are many available classes in the Java API oppo abccba oppo.that can be used to read and write files in Java: FileReader, BufferedReader, Files, Scanner, FileInputStream.
+FileWriter, BufferedWriter, FileOutputStream, etc.Which one to use depends on the Java version you're working with!
+and whether you need to read bytes or characters, and the size of the file/lines etc.
